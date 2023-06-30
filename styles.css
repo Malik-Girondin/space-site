@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-image: url("images/space.jpg");
+    background-image: url("images/galaxy.gif");
     background-size: cover;
     text-align: center;
     font-family: 'njnaruto';
@@ -18,4 +18,12 @@ body {
 @font-face {
     src: url("njnaruto.ttf");
     font-family: njnaruto;
+}
+
+.und {
+    border-bottom: 3px solid white;
+}
+
+#logo {
+    width: 300px;
 }

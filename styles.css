@@ -1,23 +1,25 @@
 body {
-    color: white;
-    background-image: url("images/galaxy.gif");
-    background-size: cover;
+    color: #7697bf;
     text-align: center;
     font-family: 'njnaruto';
+    margin: 0;
 }
 
 .btn {
-    padding: 6px 12px;
-    background: white;
-    border: none;
+    padding: 5px 10px;
+    background: rgb(205, 223, 244);
+    border: 1px solid #8b99ab;
     font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 22px;
+    color: #7697bf;
+    text-shadow: 1px 2px 1px black;
 }
 
 @font-face {
     src: url("njnaruto.ttf");
     font-family: njnaruto;
+    font-size: medium;
 }
 
 .und {
@@ -26,4 +28,20 @@ body {
 
 #logo {
     width: 300px;
+}
+
+#hero {
+    background-image: url("images/galaxy.webp");
+    background-size: cover;
+    padding: 10px 0 440 0;
+}
+
+h3 {
+    font-size: xx-large;
+    padding-top: 20px;
+    text-shadow: 3px 2px 2px rgb(4, 33, 97);
+}
+
+#title {
+    text-shadow: 2px 3px 2px rgb(16, 35, 249);
 }
